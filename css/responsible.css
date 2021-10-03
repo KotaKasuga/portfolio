@@ -1,0 +1,67 @@
+@media(max-width: 1024px) {
+    #profile-contents {
+        display: block;
+        text-align: center;
+    }
+
+    .skills-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills-item {
+        width: 30%;
+    }
+
+    .fa-file-code, .fa-wordpress-simple {
+        font-size: 150px;
+    }
+}
+
+@media(max-width: 600px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 25px;
+    }
+
+    .contents-txt, .skills-item p {
+        font-size: 14px;
+    }
+
+    .skills-item {
+        width: 50%;
+    }
+
+    .fa-file-code, .fa-wordpress-simple {
+        font-size: 100px;
+    }
+
+    #profile-contents img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .fab {
+        font-size: 80px;
+    }
+
+    .service-item p, .kome {
+        font-size: 14px;
+    }
+
+    footer h2 {
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
