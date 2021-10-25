@@ -29,25 +29,12 @@ header h1 {
     text-align: center;
 }
 
-#header-menu {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 #main-title-txt1 {
     margin-top: 30vh;
 }
 
 #main-title-txt2 {
     margin-bottom: 50vh;
-}
-
-#header-menu a {
-    color: cornsilk;
-    font-size: 30px;
-    text-decoration: none;
-    margin-right: 15px;
-    z-index: 5;
 }
 
 .main-contents {
